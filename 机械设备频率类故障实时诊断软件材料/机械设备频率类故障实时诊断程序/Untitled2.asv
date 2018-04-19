@@ -1,0 +1,9 @@
+d = {'Time', 'Temp','huu','poo'};
+load c
+c = abs(c);
+
+a='A1';
+s = xlswrite('tempdata.xls', d, 'Temperatures', a)
+%  xlswrite('tempdata.xls', b, 'Temperatures', 'A3')
+c=c+1;
+save c c 
